@@ -10,3 +10,4 @@ dotfiles-rc-local
 3. `git clone git@github.com:jumph4x/dotfiles-rc-local.git .rc-local`
 4. `sudo ln -s ~/.rc-local/rc-local /etc/rc.local`
 5. `sudo chmod o+w /etc/rc.local`
+6. `sudo update-rc.d -f ondemand remove`
